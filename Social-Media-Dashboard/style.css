@@ -1,0 +1,213 @@
+body{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* Side Bar Section of Dashboard*/
+  #sideBar{
+    width: 20%;
+    /* height: 100vh; */
+    background-color: rgb(29, 38, 154);
+  }
+  #sideBar .logo{
+    margin: 30px 0px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #sideBar .logo .fa-smile-o{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+  }
+  #sideBar .logo h2{
+    margin: 0px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+  }
+  #sideBar .side-tabs{
+    margin: 50px 0px 115px 0px;
+  }
+  #sideBar .side-tabs ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  #sideBar .side-tabs ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+  }
+  #sideBar .side-tabs ul li:hover{
+    background-color: rgba(225, 225, 225, 0.3);
+  }
+  #sideBar .side-tabs ul li .fa-tachometer,
+  #sideBar .side-tabs ul li .fa-comments,
+  #sideBar .side-tabs ul li .fa-phone,
+  #sideBar .side-tabs ul li .fa-envelope-o,
+  #sideBar .side-tabs ul li .fa-bar-chart,
+  #sideBar .side-tabs ul li .fa-gears,
+  #sideBar .side-tabs ul li .fa-area-chart{
+    color: rgb(180, 184, 244);
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #sideBar .side-tabs ul li p{
+    margin: 0px;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgb(180, 184, 244);
+    margin: 0px 10px;
+    display: inline-block;
+  }
+  #dashboard-section{
+    width: 80%;
+    /* height: 100vh; */
+    background-color: rgb(148, 222, 237)
+  }
+  #dashboard-section nav{
+    padding: 20px;
+    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  #dashboard-section nav .search-icon{
+    display: inline-block;
+  }
+  #dashboard-section nav .search-icon .fa-search{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(29, 38, 154);
+    padding: 2px 3px;
+  }
+  #dashboard-section nav .additional-icon{
+    display: inline-block;
+  }
+  #dashboard-section nav .additional-icon .fa-bell,
+  #dashboard-section nav .additional-icon .fa-envelope-o,
+  #dashboard-section nav .additional-icon .fa-user{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(29, 38, 154);
+    padding: 2px 5px;
+  }
+  #dashboard-section .heading{
+    margin: 0px 0px 20px 0px;
+  }
+  #dashboard-section .heading h2{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(29, 38, 154);
+    padding: 10px 20px;
+    text-decoration: underline;
+  }
+  #dashboard-section .social-media-cards{
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #dashboard-section .social-media-cards .media-card,
+  #dashboard-section .social-media-cards .likes{
+    width: 23%;
+    background-color: rgb(58, 71, 245);
+    border-radius: 15px;
+    padding: 15px;
+  }
+  #dashboard-section .social-media-cards .subscribe{
+    background-color: rgb(213, 0, 0);
+  }
+  #dashboard-section .social-media-cards .followers{
+    background-color: rgb(255, 111, 0);
+  }
+  #dashboard-section .social-media-cards .message{
+    background-color: rgb(46, 125, 50);
+  }
+  #dashboard-section .social-media-cards .media-card .activity-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #dashboard-section .social-media-cards .media-card .activity-icon .activity p{
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+  }
+  #dashboard-section .social-media-cards .media-card .activity-icon .icon .fa-thumbs-o-up,
+  #dashboard-section .social-media-cards .media-card .activity-icon .icon .fa-youtube-play,
+  #dashboard-section .social-media-cards .media-card .activity-icon .icon .fa-comments-o,
+  #dashboard-section .social-media-cards .media-card .activity-icon .icon .fa-users{
+    margin: 0px 3px 0px 0px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+  }
+  #dashboard-section .social-media-cards .media-card .no-of-visits{
+    margin-top: 40px;
+    margin: 0px;
+  }
+  #dashboard-section .social-media-cards .media-card .no-of-visits h2{
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  #dashboard-section .highlights{
+    box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.4);
+    margin: 30px 20px 20px 20px;
+    width: 48%;
+    padding: 80px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  #dashboard-section .highlights .heading{
+    margin: 0px;
+  }
+  #dashboard-section .highlights .heading h2{
+    text-decoration: none;
+    text-align: start;
+    padding: 7px 10px!important;
+    font-size: 25px;
+    font-weight: 800 !important;
+  }
+  #dashboard-section .highlights .text{
+    margin: 0px;
+  }
+  #dashboard-section .highlights .text p{
+    font-size: 18px;
+    color: black;
+    margin: 0px;
+    padding: 7px 10px;
+    max-width: 65%;
+  }
+  #dashboard-section .highlights .button{
+    padding: 7px 10px;
+    margin: 0px;
+  }
+  #dashboard-section .highlights .button .fa-plus{
+    border: 1px solid rgb(213, 0, 0);
+    background-color: rgb(213, 0, 0);
+    padding: 15px 18px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: .7s;
+  }
+  #dashboard-section .highlights .button .fa-plus:hover{
+    border: 1px solid rgb(213, 0, 0);
+    background-color: transparent;
+    color: rgb(213, 0, 0);
+  }

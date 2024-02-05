@@ -1,0 +1,892 @@
+nav {
+    background-color: rgb(93, 2, 85);
+    width: 100%;
+    padding: 10px 0px;
+}
+
+nav .row {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-logo,
+nav .nav-link,
+nav .nav-button {
+    /* border: 1px solid black solid red; */
+    margin: 0px;
+}
+
+nav .nav-logo .logo {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+nav .nav-logo .logo a {
+    margin: 0px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Cambria";
+    color: rgb(255, 0, 55);
+    text-decoration: none;
+}
+
+nav .nav-link .link {
+    /* border: 1px solid black solid yellow; */
+    margin: 0px;
+}
+
+nav .nav-link .link ul {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+nav .nav-link .link ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav .nav-link .link ul li a {
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 500;
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+}
+
+nav .nav-link .link ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    border-radius: 5px;
+    bottom: 0px;
+    background-color: #fff;
+    transition: .7s;
+}
+
+nav .nav-link .link ul li a:hover::before {
+    width: 50px;
+}
+
+nav .nav-button .buttons {
+    /* border: 1px solid black solid yellow; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .nav-button .buttons a {
+    border: 2px solid rgb(255, 0, 55);
+    font-size: 17px;
+    text-decoration: none;
+    font-family: "Cambria";
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* color: rgb(93, 2, 85); */
+    color: white;
+}
+
+/* Banner Section */
+#banner {
+    background: url("img/recipe-banner.PNG");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+#banner::before {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+#banner .banner-text {
+    /* border: 1px solid black solid white; */
+    margin: 0px;
+}
+
+#banner .banner-text .text {
+    /* border: 1px solid black solid white; */
+    margin: 0px;
+}
+
+#banner .banner-text .text .heading {
+    /* border: 1px solid black solid yellow; */
+    margin: 0px;
+}
+
+#banner .banner-text .text .button {
+    /* border: 1px solid black solid yellow; */
+    margin-top: 15px;
+    display: flex;
+    padding: 0px 10px;
+}
+
+#banner .banner-text .text .slogan {
+    /* border: 1px solid black solid yellow; */
+    margin: 0px 0px 25px 0px;
+}
+
+#banner .banner-text .text .desc {
+    /* border: 1px solid black solid yellow; */
+    margin: 0px;
+}
+
+#banner .banner-text .text .heading h2 {
+    margin: 0px;
+    font-size: 65px;
+    font-family: "Cambria";
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+#banner .banner-text .text .slogan p {
+    margin: 0px;
+    padding: 0px 10px;
+    font-size: 25px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: white;
+}
+
+#banner .banner-text .text .desc p {
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: white;
+}
+
+#banner .banner-text .text .button a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: white;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 0, 55);
+    border: 1px solid rgb(255, 0, 55);
+    border-radius: 7px;
+    transition: .7s;
+}
+
+#banner .banner-text .text .button a:hover {
+    border: 1px solid rgb(255, 0, 55);
+    background-color: transparent;
+    color: rgb(255, 0, 55);
+}
+
+#banner .banner-text .text .button .fa-angle-right {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+/* Our Category */
+
+#our-categories {
+    padding: 60px 0px;
+}
+
+#our-categories .main-head {
+    margin-bottom: 30px;
+}
+
+#our-categories .main-head .heading h2 {
+    margin: 0px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: rgb(255, 0, 55);
+}
+
+#our-categories .myDish {
+    /* border: 1px solid black solid black; */
+    margin-bottom: 30px
+        /* height: 40vh; */
+}
+
+#our-categories .myDish .dish {
+    border: 1px solid black solid black;
+    height: 40vh;
+}
+
+#our-categories .myDish .dish .dishImage {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+    height: 33vh;
+}
+
+#our-categories .myDish .dish .dishImage img {
+    width: 100%;
+    height: 100%;
+}
+
+#our-categories .myDish .dish .dishName {
+    /* border: 1px solid black solid black; */
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 55);
+}
+
+#our-categories .myDish .dish .dishName a {
+    margin: 0px;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: white;
+}
+
+/* Main Ingredients */
+#top-recipe {
+    padding: 60px 0px;
+    background-color: #222;
+}
+
+#top-recipe .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#top-recipe .main-head {
+    margin-bottom: 30px;
+}
+
+#top-recipe .main-head .heading h2 {
+    margin: 0px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: rgb(255, 0, 55);
+}
+
+#top-recipe .recipe-text {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+}
+
+#top-recipe .recipe-text .text {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+}
+
+#top-recipe .recipe-pic {
+    /* border: 1px solid black solid white; */
+    margin: 0px;
+}
+
+#top-recipe .recipe-pic .image {
+    /* border: 1px solid black solid white; */
+    height: 55vh;
+}
+
+#top-recipe .recipe-pic .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#top-recipe .recipe-text .text .heading h2 {
+    margin: 0px;
+    font-size: 35px;
+    font-family: "Cambria";
+    font-weight: 550;
+    color: white;
+}
+
+#top-recipe .recipe-text .text .desc,
+#top-recipe .recipe-text .text .desc1 {
+    /* border: 1px solid black solid white; */
+    margin: 20px 0px;
+}
+
+#top-recipe .recipe-text .text .desc p {
+    margin: 0px;
+    font-size: 22px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: white;
+    max-width: 75%;
+}
+
+#top-recipe .recipe-text .text .desc1 p {
+    margin: 0px;
+    font-size: 22px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: rgb(255, 0, 55);
+    max-width: 75%;
+}
+
+/* New Ingredients Section */
+#new-ingredients {
+    padding: 60px 0px;
+}
+
+#new-ingredients .main-head {
+    /* border: 1px solid black solid black; */
+    margin-bottom: 30px;
+}
+
+#new-ingredients .main-head .heading h2 {
+    margin: 0px;
+    font-size: 35px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: rgb(255, 0, 55);
+    text-align: center;
+}
+
+#new-ingredients .my-ingredients {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+}
+
+#new-ingredients .my-ingredients .ingredients {
+    /* border: 1px solid black solid black; */
+    border: 2px solid rgb(255, 0, 55);
+    border-radius: 7px;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.52);
+}
+
+#new-ingredients .my-ingredients .ingredients .image {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#new-ingredients .my-ingredients .ingredients .image img {
+    width: 52%;
+    height: 90%;
+    border-radius: 100%;
+    border: 4px solid rgb(255, 0, 55);
+}
+
+#new-ingredients .my-ingredients .ingredients .name {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+}
+
+#new-ingredients .my-ingredients .ingredients .name h3 {
+    margin: 0px;
+    font-size: 25px;
+    font-family: "Cambria";
+    font-weight: 550;
+    color: black;
+    text-align: center;
+    padding: 7px 0px;
+}
+
+#new-ingredients .my-ingredients .ingredients .desc {
+    /* border: 1px solid black solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+#new-ingredients .my-ingredients .ingredients .desc p {
+    margin: 0px;
+    text-align: center;
+    max-width: 90%;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: black;
+    padding: 7px 5px;
+}
+
+/* Contact Us Section */
+#contact-us {
+    padding: 60px 0px;
+    background-color: #222;
+}
+
+#contact-us .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contact-us .main-head {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+#contact-us .main-head .heading h2 {
+    /* border: 1px solid black solid black; */
+    margin: 0px;
+    font-size: 35px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: rgb(255, 0, 55);
+    text-align: center;
+}
+
+#contact-us .contact-form {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+#contact-us .contact-form form {
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+}
+
+#contact-us .contact-form form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: black;
+    border-radius: 7px;
+}
+
+#contact-us .contact-form form input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: black;
+    border-radius: 7px;
+}
+
+#contact-us .contact-form .button {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#contact-us .contact-form .button a {
+    background-color: rgb(255, 0, 55);
+    font-size: 20px;
+    font-family: "Cambria";
+    font-weight: 500;
+    color: white;
+    padding: 10px 60px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 0, 55);
+    text-align: center;
+    transition: .7s;
+}
+
+#contact-us .contact-form .button a:hover {
+    border: 1px solid rgb(255, 0, 55);
+    background-color: transparent;
+    color: rgb(255, 0, 55);
+}
+
+/* Footer Section */
+footer {
+    background-color: rgb(93, 2, 85);
+    padding: 35px 0px;
+}
+
+footer .footer-links {
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+footer .footer-links .links {
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+footer .footer-links .links ul {
+    margin: 0px;
+}
+
+footer .footer-links .links ul li {
+    list-style: none;
+}
+
+footer .footer-links .links ul li h3 {
+    font-size: 25px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: white;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+footer .footer-links .links ul li a {
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: .7s;
+}
+
+footer .footer-links .links ul li a:hover {
+    color: #CD201F;
+}
+
+footer .footer-input-icons {
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+footer .footer-input-icons .footer-input {
+    display: flex;
+}
+
+footer .footer-input-icons .footer-input input {
+    width: 100%;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+footer .footer-input-icons .footer-button {
+    display: flex;
+    width: 20%;
+}
+
+footer .footer-input-icons .footer-button a {
+    background-color: rgb(255, 0, 55);
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 400;
+    padding: 10px 23px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+footer .footer-input-icons .social-icons {
+    padding: 20px 10px;
+}
+
+footer .footer-input-icons .social-icons li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 0px 10px;
+}
+
+footer .footer-input-icons .social-icons li .fa {
+    font-size: 27px;
+}
+
+footer .footer-input-icons .social-icons li .fa-facebook-square {
+    border-radius: 5px;
+    color: #316FF6;
+}
+
+footer .footer-input-icons .social-icons li .fa-youtube-play {
+    border-radius: 5px;
+    color: #CD201F;
+}
+
+footer .footer-input-icons .social-icons li .fa-linkedin-square {
+    border-radius: 5px;
+    color: #0077b5;
+}
+
+footer .footer-input-icons .social-icons li .fa-twitter-square {
+    border-radius: 5px;
+    color: #1DA1F2;
+}
+
+/* New Footer Section */
+#new-footer {
+    padding: 15px 0px;
+    background-color: rgb(66, 2, 61);
+}
+
+#new-footer .address,
+#new-footer .phone,
+#new-footer .days,
+#new-footer .timing {
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+#new-footer .address p,
+#new-footer .phone p,
+#new-footer .days p,
+#new-footer .timing p {
+    font-size: 17px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+#loginPage {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #1DA1F2; */
+    /* background-color: #222; */
+    background: linear-gradient(to bottom left, #CD201F, rgb(93, 2, 85));
+    /* background: linear-gradient(to bottom left, #CD201F, #0077b5,#CD201F); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginPage .loginInformation {
+    width: 40%;
+    /* height: 70vh; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px 0px rgba(0, 0, 0, 0.52);
+    padding: 30px 50px;
+}
+
+#loginPage .loginInformation .profileImg {
+    /* border: 1px solid black; */
+    padding: 2px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#loginPage .loginInformation .profileImg .image {
+    /* border: 3px solid rgb(93, 2, 85); */
+    border: 3px solid #CD201F;
+    width: 140px;
+    border-radius: 70px;
+    height: 140px;
+}
+
+#loginPage .loginInformation .profileImg .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+}
+
+#loginPage .loginInformation .loginHeading {
+    /* border: 1px solid black; */
+    margin: 10px 0px 20px 0px;
+}
+
+#loginPage .loginInformation .loginHeading h2 {
+    margin: 0px;
+    font-size: 30px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: #CD201F;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#loginPage .loginInformation form {
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+}
+
+#loginPage .loginInformation form label {
+    /* background-color: greenyellow; */
+    display: block;
+    margin: 0px;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 500;
+    color: black;
+    padding: 10px 0px;
+}
+
+#loginPage .loginInformation form input {
+    display: block;
+    margin: 0px;
+    font-size: 18px;
+    font-family: "Cambria";
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#loginPage .loginInformation .forgetPassword {
+    margin-bottom: 30px;
+}
+
+#loginPage .loginInformation .forgetPassword a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Cambria";
+    font-weight: 400;
+    color: #316FF6;
+}
+
+#loginPage .loginInformation .signInButton {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#loginPage .loginInformation .signInButton a {
+    width: 50%;
+    background-color: #CD201F;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Cambria";
+    font-weight: 400;
+    padding: 10px 0px;
+    border: 1px solid #CD201F;
+    transition: .7s;
+}
+
+#loginPage .loginInformation .signInButton a:hover {
+    background-color: transparent;
+    color: #CD201F;
+    border: 1px solid #CD201F;
+}
+
+/* Pakistani Cuisine */
+.padding-space {
+    margin: 0px 100px;
+}
+
+#pakistan-heading {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#pakistan-heading .heading h2 {
+    /* border: 1px solid black; */
+    margin: 0px;
+    font-size: 40px;
+    font-family: "Cambria";
+    font-weight: 600;
+    text-align: center;
+    color: #CD201F;
+}
+
+#my-cuisine {
+    /* border: 1px solid black; */
+    background-color: #e9e9e9;
+    /* height: 30vh; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0px rgba(0, 0, 0, 0.52);
+}
+
+#my-cuisine .image {
+    width: 15.5%;
+    height: 200px;
+    border: 4px solid #CD201F;
+    border-radius: 170px;
+    background-color: rgb(93, 2, 85);
+}
+
+#my-cuisine .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+#my-cuisine .detail {
+    width: 65%;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid black; */
+}
+
+#my-cuisine .detail .heading {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+#my-cuisine .detail .heading h3 {
+    margin: 0px;
+    font-size: 28px;
+    font-family: "Cambria";
+    font-weight: 600;
+    color: #000;
+    padding: 5px 10px;
+}
+
+#my-cuisine .detail .desc {
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+
+#my-cuisine .detail .desc p {
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Cambria";
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+#my-cuisine .detail .rate-icon {
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+}
+
+#my-cuisine .detail .rate-icon .fa-star {
+    margin: 0px;
+    font-size: 18px;
+    padding: 0px;
+    color: #FFDF00;
+}
+
+#my-cuisine .detail .button {
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    display: flex;
+    margin: 0px;
+}
+
+#my-cuisine .detail .button a {
+    border: 1px solid #CD201F;
+    margin: 0px;
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Cambria";
+    font-weight: 500;
+    background-color: #CD201F;
+    color: white;
+    transition: .7s;
+    border-radius: 5px;
+}
+
+#my-cuisine .detail .button a:hover {
+    border: 1px solid #CD201F;
+    color: #CD201F;
+    background-color: transparent;
+}
